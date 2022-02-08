@@ -1,0 +1,75 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* General Rules */
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #d3dedc;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 200px;
+  background-color: #efefef;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+}
+.user-name {
+  font-size: 14px;
+  font-weight: 700;
+  align-self: flex-start;
+}
+
+.user-created-date {
+  font-size: 12px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+.user-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #039;
+}
+
+.user-contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding: 12px;
+  bottom: 1px solid #ccc;
+  box-shadow: 0 0 20px #ddd;
+}
+.contact-type {
+  font-weight: 700;
+}
+.send-message {
+  align-self: center;
+  color: #039;
+  font-size: 12px;
+}
+
+.send-message:hover,
+.user-links-all-advert:hover,
+.user-links-profile:hover,
+.user-links-favorite:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
