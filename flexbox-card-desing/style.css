@@ -9,3 +9,36 @@ body {
   font-family: sans-serif;
   background-color: #d3dedc;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 600px;
+  height: 150px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 20px;
+}
+
+.content {
+  flex-shrink: 1;
+}
+.content-title {
+  margin-bottom: 10px;
+}
+
+.icon-arrow,
+.svg {
+  flex-shrink: 0;
+}
