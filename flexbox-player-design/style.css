@@ -11,34 +11,42 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card {
-  margin-bottom: 20px;
-  width: 600px;
-  height: 150px;
-  padding: 20px;
-  background-color: #fff;
+.player {
+  background-color: #fff9f9;
+  border-radius: 25px;
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-function {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+.player-timer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 20px #ddd;
+  width: 100%;
+  height: 50px;
 }
 
-.content {
-  flex-shrink: 1;
-}
-.content-title {
-  margin-bottom: 10px;
-}
-
-.icon-arrow,
-.svg {
-  flex-shrink: 0;
+/* There is no progress icon or functionality in this project. */
+.time-progress {
+  width: 70%;
+  height: 5px;
+  background-color: black;
 }
