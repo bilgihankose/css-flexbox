@@ -35,3 +35,15 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+.tab-bar-item {
+  width: 80px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab-bar-item-icon {
+  padding-bottom: 5px;
+}
