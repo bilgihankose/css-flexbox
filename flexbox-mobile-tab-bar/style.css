@@ -22,14 +22,14 @@ body {
 
 /* Flexbox */
 .tab-bar {
-  width: 500px;
+  width: 400px;
   height: 100px;
   margin: auto;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: #9ad0ec;
   display: flex;
-  gap: 20px;
+  gap: 5px;
   justify-content: center;
   align-items: center;
 }

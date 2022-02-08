@@ -21,9 +21,9 @@ body {
 
 .card {
   margin-bottom: 20px;
-  width: 600px;
+  width: 400px;
   height: 150px;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -33,6 +33,7 @@ body {
 
 .content {
   flex-shrink: 1;
+  padding-left: 15px;
 }
 .content-title {
   margin-bottom: 10px;
