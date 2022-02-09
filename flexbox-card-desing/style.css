@@ -7,7 +7,6 @@
 /* General Rules */
 body {
   font-family: sans-serif;
-  background-color: #d3dedc;
 }
 
 .container {
@@ -28,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 20px;
+  box-shadow: 0 0 20px #ddd;
 }
 
 .content {

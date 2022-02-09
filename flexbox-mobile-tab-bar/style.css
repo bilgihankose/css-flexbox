@@ -7,7 +7,6 @@
 /* General Rules */
 body {
   font-family: sans-serif;
-  background-color: #d3dedc;
   text-align: center;
 }
 
@@ -22,14 +21,13 @@ body {
 
 /* Flexbox */
 .tab-bar {
-  width: 400px;
+  box-shadow: 0 0 20px #ddd;
+  width: 350px;
   height: 100px;
-  margin: auto;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   background-color: #9ad0ec;
   display: flex;
-  gap: 5px;
   justify-content: center;
   align-items: center;
 }

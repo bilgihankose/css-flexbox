@@ -7,7 +7,6 @@
 /* General Rules */
 body {
   font-family: sans-serif;
-  background-color: #d3dedc;
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
 }
 
 .player {
+  box-shadow: 0 0 20px #ddd;
   background-color: #fff9f9;
   border-radius: 25px;
   width: 400px;
