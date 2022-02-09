@@ -1,12 +1,12 @@
 # CSS Flexbox Exersize Repo
 
-This repository created for learning Flexbox CSS.
+This repository is created for learning Flexbox CSS.
 
-I embed the codes via iframe.
+The codes are embedded via iframe.
 
 ## 🔗 Links
 
-You can see the project with below link. 
+You can see the project in below link. 
 - https://bilgihankose.github.io/css-flexbox/
 
 ## 🚀 About Me

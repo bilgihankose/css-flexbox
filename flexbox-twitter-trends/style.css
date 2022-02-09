@@ -1,0 +1,14 @@
+/* RESET CSS  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Rules */
+body {
+  font-family: sans-serif;
+  background-color: #d3dedc;
+  line-height: 19px;
+}
+
+
